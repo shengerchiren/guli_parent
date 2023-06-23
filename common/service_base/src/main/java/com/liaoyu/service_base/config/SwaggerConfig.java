@@ -39,6 +39,6 @@ public class SwaggerConfig {
                 .title("Swagger2")
                 .description("RestFul风格的接口")
                 .contact(new Contact("liaoyu", "http://localhost:8081/swagger-ui.html", "3250209821@qq.com"))
-                .build();
+                .build();//nh
     }
 }
