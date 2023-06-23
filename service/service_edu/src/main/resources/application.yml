@@ -1,0 +1,14 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/gulixueyuan
+    username: root
+    password: 123456
+  mvc: #springboot高版本下的swagger2的解决方案
+    path match:
+      matching-strategy: ANT_PATH_MATCHER
+  redis:
+    host: 192.168.159.128
+    port: 6379
